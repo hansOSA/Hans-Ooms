@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className='cards'>
         <h1>
-            specific information
+            Recent Projects
         </h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
