@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './components/pages/Home'
 
 class App extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class App extends React.Component {
       <Router>
         <Navbar />
         <Routes> 
-          <Route path='/' exact /> 
+          <Route exact path='/' element={<Home />} />
         </Routes>
       </Router>
     );
